@@ -48,7 +48,7 @@ jobs:
       fail-fast: false
       matrix:
         mayhemfile:
-          - /mayhem-cmake-example/mayhem/Mayhemfile
+          - mayhem-cmake-example/mayhem/Mayhemfile
 
     steps:
       - uses: actions/checkout@v2
